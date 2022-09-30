@@ -11,7 +11,7 @@ public class Test {
 
     @RequestMapping(method = RequestMethod.GET, path = "/getMethod")
     public String getMethod(){
-        System.out.println("hi~~~~~ ㅋㅋㅋㅋㅋ");
+        System.out.println("hi~~~~~ ㅋㅋㅋㅋㅋㅋ");
         return "hi~~ getMethod";
     }
 }
